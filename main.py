@@ -46,7 +46,7 @@ def GenerateBill():
 
     global receiptZone
     if roadBkquantity.get()==0 and mountainBkQuantity.get()==0 and FoldingBkQuantity.get()==0 and BmxQuantity.get()==0:
-        messagebox.showerror("Opps","Items must be purchased!!!")
+        messagebox.showerror("Opps","Items must be purchased!")
     else:
         receiptZone.delete('1.0',END)
         receiptZone.insert(END,"\t|| shop records ||")
